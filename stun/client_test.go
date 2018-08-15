@@ -25,5 +25,4 @@ func TestClient_Request(t *testing.T) {
 	}
 	fmt.Printf("remote address: %s:%d\n", addr.IP.String(), addr.Port)
 	fmt.Printf("local address: %s\n", client.conn.LocalAddr().String())
-	fmt.Printf("local port: %d\n", client.Port())
 }
