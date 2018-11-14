@@ -4,7 +4,7 @@ package stun
 type UseCandidate struct {
 }
 
-// Pack message user Candidate
+// Pack with use-candidate attribute
 func (u *UseCandidate) Pack(message *Message) error {
 	message.AddAttribute(AttrUseCandidate, []byte{})
 	return nil
