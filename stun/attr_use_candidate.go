@@ -10,7 +10,7 @@ func (u *UseCandidate) Pack(message *Message) error {
 	return nil
 }
 
-// Unpack message with Candidate
+// Unpack use-candidate attribute
 func (u *UseCandidate) Unpack(message *Message, rawAttribute *RawAttribute) error {
 	return nil
 }
