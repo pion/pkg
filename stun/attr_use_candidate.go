@@ -1,5 +1,7 @@
 package stun
 
+// https://tools.ietf.org/html/draft-ietf-ice-rfc5245bis-20#section-16.1
+
 // UseCandidate has no field struct
 type UseCandidate struct {
 }
