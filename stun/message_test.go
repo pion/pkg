@@ -7,7 +7,7 @@ import (
 )
 
 func TestIsSTUN(t *testing.T) {
-	msg, err := Build(ClassIndication, MethodBinding, GenerateTransactionID())
+	msg, err := Build(ClassIndication, MethodBinding, GenerateTransactionId())
 	if err != nil {
 		panic(err)
 	}

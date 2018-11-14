@@ -363,8 +363,8 @@ func BuildAndSend(conn *ipv4.PacketConn, addr *TransportAddr, class MessageClass
 	return nil
 }
 
-// GenerateTransactionID returns 16bytes ids
-func GenerateTransactionID() []byte {
+// GenerateTransactionId returns 16bytes ids
+func GenerateTransactionId() []byte {
 	randSeq := func(n int) string {
 		letters := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 		b := make([]rune, n)
