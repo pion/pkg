@@ -47,7 +47,7 @@ var messageClassName = map[MessageClass]string{
 	ClassErrorResponse:   "ERROR-RESPONSE",
 }
 
-// String representate hex format messageClassName
+// String prints the known class names and a hex format for unknown class names
 func (m MessageClass) String() string {
 	s, err := messageClassName[m]
 	if !err {
