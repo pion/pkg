@@ -68,7 +68,7 @@ var methodName = map[Method]string{
 	MethodChannelBind:      "CHANNEL-BIND",
 }
 
-// String representates hex format MethodName
+// String prints the known method names and a hex format for unknown method names
 func (m Method) String() string {
 	s, err := methodName[m]
 	if !err {
