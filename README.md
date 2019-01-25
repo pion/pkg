@@ -1,11 +1,4 @@
-# Pion Pkg ![Build Status](https://travis-ci.org/pions/pkg.svg?branch=master)
-This repository is a collection of Golang libraries used by the Pion ecosystem.
+# DEPRECATED
+This package is no longer supported, and only exists for historical reasons.
 
-Anyone is free to copy/use these libraries, but there is are currently no promises about the stability of the API.
-They will be changing to accommodate Pion products.
-
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## License
-MIT License - see [LICENSE.md](LICENSE.md) for full text
+All future development has been moved to [github.com/pions/stun](https://github.com/pions/stun)
